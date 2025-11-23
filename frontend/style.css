@@ -7,48 +7,50 @@ body {
   margin: 0;
 }
 
-/* New Styles for Header Layout */
+/* --- UPDATED HEADER STYLES --- */
+header {
+  background: #ffffff; /* Changed from Blue to White */
+  color: #333;         /* Default text color for header */
+  padding: 2.3rem 0 1.3rem 0;
+  text-align: center;
+  border-bottom: 5px solid #1976d2; /* Optional: Adds a blue line at the bottom to keep the brand color */
+}
+
+/* Flexbox container to align Logo and Text side-by-side */
 .header-title-group {
-  display: flex;           /* This aligns items side-by-side */
-  align-items: center;     /* This centers them vertically (top to bottom) */
-  justify-content: center; /* This centers the whole group on the page */
-  gap: 15px;               /* Adds space between the logo and the text */
-  margin-bottom: 1rem;     /* Adds space below the group before the paragraph */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 1rem;
 }
 
 .logo {
-  height: 50px;            /* Control the logo size (adjust as needed) */
-  width: auto;             /* Keeps the aspect ratio correct */
+  height: 60px; /* Adjusted size */
+  width: auto;
 }
 
-/* Optional: If the H1 margin is too big, reset it slightly */
+/* THE HOLLOW TEXT EFFECT */
 .header-title-group h1 {
   margin: 0;
-}
-
-header {
-  background: #1976d2;
-  color: #fff;
-  padding: 2.3rem 0 1.3rem 0;
-  text-align: center;
-}
-
-.hero-image {
-  width: 100%;
-  max-width: 900px;
-  height: 320px;
-  object-fit: cover;
-  border-radius: 14px;
-  margin: 0 auto 1.7rem auto;
-  display: block;
-  box-shadow: 0 2px 16px rgba(30, 40, 60, 0.11);
+  font-size: 2.5rem;       /* Large size */
+  font-weight: 900;        /* Extra Bold is required for the outline to look good */
+  color: #ffffff;          /* The inside is White (Empty) */
+  -webkit-text-stroke: 2px #1652a4; /* The outline is Blue */
+  letter-spacing: 0.05em;
+  line-height: 1;
+  /* Fallback for very old browsers: just blue text */
+  @supports not (-webkit-text-stroke: 2px #1652a4) {
+    color: #1652a4;
+  }
 }
 
 .lead {
   font-size: 1.23em;
   font-weight: 500;
-  margin: 0 0 1.7rem 0;
-  color: #2b4168;
+  margin: 0 auto 1.7rem auto;
+  color: #2b4168; /* Dark Blue text so it is visible on white bg */
+  max-width: 800px; /* Keeps text from getting too wide */
 }
 
 nav {

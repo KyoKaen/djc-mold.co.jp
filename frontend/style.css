@@ -7,6 +7,25 @@ body {
   margin: 0;
 }
 
+/* New Styles for Header Layout */
+.header-title-group {
+  display: flex;           /* This aligns items side-by-side */
+  align-items: center;     /* This centers them vertically (top to bottom) */
+  justify-content: center; /* This centers the whole group on the page */
+  gap: 15px;               /* Adds space between the logo and the text */
+  margin-bottom: 1rem;     /* Adds space below the group before the paragraph */
+}
+
+.logo {
+  height: 50px;            /* Control the logo size (adjust as needed) */
+  width: auto;             /* Keeps the aspect ratio correct */
+}
+
+/* Optional: If the H1 margin is too big, reset it slightly */
+.header-title-group h1 {
+  margin: 0;
+}
+
 header {
   background: #1976d2;
   color: #fff;

@@ -1,3 +1,5 @@
+https://kyokaen.github.io/djc-mold.co.jp/
+
 repo: https://github.com/KyoKaen/djc-mold.co.jp
 ```
 /djc-mold-ai-demo

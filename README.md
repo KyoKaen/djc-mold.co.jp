@@ -1,10 +1,8 @@
-https://kyokaen.github.io/djc-mold.co.jp/
+Repo：https://kyokaen.github.io/djc-mold.co.jp/
 
-https://kyokaen.github.io/kyoconnectai-mock-usecase/DJC/djc.html
+Old-demo: https://kyokaen.github.io/kyoconnectai-mock-usecase/DJC/djc.html
 
-
-other files:
-https://github.com/KyoKaen/kyoconnectai-mock-usecase/tree/main/DJC
+other old files: https://github.com/KyoKaen/kyoconnectai-mock-usecase/tree/main/DJC
 
 repo: https://github.com/KyoKaen/djc-mold.co.jp
 ```

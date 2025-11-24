@@ -1,4 +1,8 @@
 https://kyokaen.github.io/djc-mold.co.jp/
+
+https://kyokaen.github.io/kyoconnectai-mock-usecase/DJC/djc.html
+
+
 other files:
 https://github.com/KyoKaen/kyoconnectai-mock-usecase/tree/main/DJC
 

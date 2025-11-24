@@ -1,3 +1,5 @@
+refer-info: https://topjapan-1.com/index.html
+
 Repo：https://kyokaen.github.io/djc-mold.co.jp/
 
 Old-demo: https://kyokaen.github.io/kyoconnectai-mock-usecase/DJC/djc.html

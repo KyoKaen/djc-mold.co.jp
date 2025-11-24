@@ -1,5 +1,4 @@
-// <script src="https://kyokaen.github.io/kyoconnectai-chatbot-js/djc/djc-remark-chatbot.js" defer></script>
-<script>
+
     document.addEventListener('DOMContentLoaded', function() {
       const faqQuestions = document.querySelectorAll('#faq dt');
 
@@ -24,4 +23,4 @@
         });
       });
     });
-</script>
+
